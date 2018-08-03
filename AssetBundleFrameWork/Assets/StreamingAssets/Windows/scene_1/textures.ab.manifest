@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1705598531
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3f3838af4e445517970b5eb7ccf6b01b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4cd0a5558493b0679e071c141fc729a3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/AB_Res/Scene_1/Textures/BaiXiNiu.jpg
+- Assets/AB_Res/Scene_1/Textures/ChangBiYuan.jpg
+- Assets/AB_Res/Scene_1/Textures/BanMa.jpg
+- Assets/AB_Res/Scene_1/Textures/DaiShu.jpg
+- Assets/AB_Res/Scene_1/Textures/BaiTianE.jpg
+- Assets/AB_Res/Scene_1/Textures/DanDingHe.jpg
+- Assets/AB_Res/Scene_1/Textures/ChangjingLu.jpg
+Dependencies: []
