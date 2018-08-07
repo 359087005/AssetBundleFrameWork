@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using System.IO;
 
-namespace AssetsBundleFrameWork
+namespace AssetBundleFrameWork
 {
     /// <summary>
     /// 打包

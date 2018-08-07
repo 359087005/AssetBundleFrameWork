@@ -229,7 +229,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\AssetBundleFrameWork\Tool\PathTools.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFrameWork\ABMainfestLoader.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFrameWork\ABRelation.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFrameWork\AssetBundleLoader.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFrameWork\AssetBundleMgr.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFrameWork\MultiABMgr.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFrameWork\SingleABLoader.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFrameWork\Test\Test_ABToolFrameWork.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFrameWork\Test\Test_SingleABLoader.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFrameWork\Tools\ABDefine.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleFrameWork\Tools\PathTools.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

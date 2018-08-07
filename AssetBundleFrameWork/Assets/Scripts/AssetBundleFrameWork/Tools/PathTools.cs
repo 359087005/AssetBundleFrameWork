@@ -6,7 +6,7 @@ using UnityEngine;
 /// 包含本框架中所有的路径常量
 /// </summary>
 
-namespace AssetsBundleFrameWork
+namespace AssetBundleFrameWork
 {
     public class PathTools
     {
@@ -55,7 +55,7 @@ namespace AssetsBundleFrameWork
         /// 获取平台的名称
         /// </summary>
         /// <returns></returns>
-        private static string GetPlatformName()
+        public static string GetPlatformName()
         {
             string strReturnPlatformName = string.Empty;
             switch (Application.platform)
@@ -72,6 +72,31 @@ namespace AssetsBundleFrameWork
                     break;
             }
             return strReturnPlatformName;
+        }
+
+        /// <summary>
+        /// 根据平台获取下载路径
+        /// </summary>
+        /// <returns></returns>
+        public static string GetWWWPath()
+        {
+            //返回路径字符串
+            string strReturnWWWPath = string.Empty;
+
+            switch (Application.platform)
+            {
+                case RuntimePlatform.WindowsPlayer:
+                case RuntimePlatform.WindowsEditor:
+                    strReturnWWWPath = "file://" + GetABOutPath();
+                    break;
+                case RuntimePlatform.IPhonePlayer:
+                    strReturnWWWPath = GetABOutPath() + "/Raw/";
+                    break;
+                case RuntimePlatform.Android:
+                    strReturnWWWPath = "jar:file://" + GetABOutPath();
+                    break;
+            }
+            return strReturnWWWPath;
         }
     }
 }

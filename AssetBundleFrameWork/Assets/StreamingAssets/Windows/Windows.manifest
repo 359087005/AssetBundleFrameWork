@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 4285886794
+CRC: 3543805063
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -8,4 +8,11 @@ AssetBundleManifest:
         Dependency_0: scene_1/textures.ab
     Info_1:
       Name: scene_1/textures.ab
+      Dependencies: {}
+    Info_2:
+      Name: scene_1/prefabs.ab
+      Dependencies:
+        Dependency_0: scene_1/materials.ab
+    Info_3:
+      Name: scene_1/scene_1.u3d
       Dependencies: {}

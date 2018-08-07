@@ -12,7 +12,7 @@ using System.IO;
 ///             如果是文件，则使用AssetIoporter类，标记包名和后缀名。
 /// </summary>
 
-namespace AssetsBundleFrameWork
+namespace AssetBundleFrameWork
 {
     public class AutoSetLabel
     {

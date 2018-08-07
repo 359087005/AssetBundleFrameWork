@@ -6,7 +6,7 @@ using System.IO;
 /// <summary>
 /// 删除AB包
 /// </summary>
-namespace AssetsBundleFrameWork
+namespace AssetBundleFrameWork
 {
     public class DeleteAssetBundle
     {
